@@ -40,12 +40,22 @@
 <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
   <h1 class="display-6 mb-4">Martín Salinas Boloña</h1>
   <p class="mb-4 text-justify">
+  <span class="lang-es">
     Estudiante de Ingeniería Civil Mecánica con una sólida vocación por la excelencia en ingeniería. 
-    Busco oportunidades para aplicar mis conocimientos y habilidades en proyectos reales, tanto a nivel técnico como humano, 
+    Busco oportunidades para aplicar mis conocimientos y habilidades en proyectos reales. Altamente 
     motivado por la innovación. 
     Me interesa especialmente el impacto de la ingeniería en la vida de las personas y el potencial de la tecnología para transformar industrias. 
     Aspiro a formar parte de equipos multidisciplinarios que compartan una visión de mejora continua, aprendizaje permanente y responsabilidad social.
-  </p>
+  </span>
+  <span class="lang-en" style="display: none;">
+    Mechanical Engineering student with a strong vocation for excellence in engineering. 
+    I seek opportunities to apply my knowledge and skills to real-world projects. Highly 
+    motivated by innovation. 
+    I am especially interested in the impact of engineering on people’s lives and the potential of technology to transform industries. 
+    I aspire to be part of multidisciplinary teams that share a vision of continuous improvement, lifelong learning, and social responsibility.
+  </span>
+</p>
+
 
   <div class="d-flex align-items-center mb-2">
 <i class="fas fa-map-marker-alt text-primary me-3"></i>
@@ -75,12 +85,28 @@
   </a>
 
   <!-- Botón de descarga del CV -->
-  <a class="btn btn-primary py-2 px-4"
-     href="cv-martin-salinas.pdf"
-     download="docs/CV_Martin_Salinas.pdf">
-    <i class="fas fa-download me-2"></i>Descarga mi CV!
+  <a id="cv-download" href="docs/cv-martin-salinas-es.pdf" download class="btn btn-primary py-3 px-4 ms-3">
+  <span class="lang-es">Ve mi CV!</span>
+  <span class="lang-en" style="display: none;">See my CV!</span>
   </a>
+
+
 </div>
+
+<br>
+ <!-- Botón idioma -->
+<div class="language-toggle">
+  <input type="checkbox" id="toggle-lang" onchange="toggleLanguage()" />
+  <label for="toggle-lang">
+    <span class="toggle-track">
+      <span class="toggle-thumb"></span>
+    </span>
+  </label>
+  <span id="toggle-label" class="ms-2">Español</span>
+</div>
+
+
+
 
 
 
@@ -96,7 +122,10 @@
     <div class="row g-0">
       <div class="col-12">
         <div class="education-content h-100 pt-6 pb-6">
-          <h2 class="section-title">Educación</h2>
+          <h2 class="section-title">
+            <span class="lang-es">Educación</span>
+            <span class="lang-en" style="display: none;">Education</span>
+          </h2>
           <div class="row g-4">
 
             <div class="col-12">
@@ -105,7 +134,10 @@
                   <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
                   <div><span class="fa fa-calendar me-1"></span> 2021 - 2026</div>
                 </div>
-                <h4 class="mb-3">Ingeniería Civil Mecánica</h4>
+                <h4 class="mb-3">
+                  <span class="lang-es">Ingeniería Civil Mecánica</span>
+                  <span class="lang-en" style="display: none;">Mechanical Civil Engineering</span>
+                </h4>
               </div>
             </div>
 
@@ -124,66 +156,133 @@
     <div class="row g-0">
       <div class="col-12">
         <div class="experience-content h-100 pt-6 pb-6">
-          <h2 class="section-title">Experiencia</h2>
+          <h2 class="section-title">
+            <span class="lang-es">Experiencia</span>
+            <span class="lang-en" style="display: none;">Experience</span>
+          </h2>
           <div class="row g-4">
 
-            <div class="col-12">
-              <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="d-flex align-items-center mb-3">
-                  <p class="fs-5 mb-0 me-4">Taller automotriz JGC motors</p>
-                  <div><span class="fa fa-calendar me-1"></span> 2025</div>
-                </div>
-                <h4 class="mb-3">Práctica I</h4>
-                <p class="mb-0">Trabajé como mecánico, realizando cambios de aceite y filtros, cambios de neumáticos, balancear ruedas, entre otras tareas básicas.</p>
-              </div>
-            </div>
+  <div class="col-12">
+    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="d-flex align-items-center mb-3">
+        <p class="fs-5 mb-0 me-4">
+          <span class="lang-es">Taller automotriz JGC motors</span>
+          <span class="lang-en" style="display: none;">JGC Motors Automotive Workshop</span>
+        </p>
+        <div><span class="fa fa-calendar me-1"></span> 2025</div>
+      </div>
+      <h4 class="mb-3">
+        <span class="lang-es">Práctica I</span>
+        <span class="lang-en" style="display: none;">Internship I</span>
+      </h4>
+      <p class="mb-0">
+        <span class="lang-es">
+          Trabajé como mecánico, realizando cambios de aceite y filtros, cambios de neumáticos, balancear ruedas, entre otras tareas básicas.
+        </span>
+        <span class="lang-en" style="display: none;">
+          I worked as a mechanic, performing oil and filter changes, tire replacement, wheel balancing, among other basic tasks.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
 
             <!-- Item 2 -->
-            <div class="col-12">
-              <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="d-flex align-items-center mb-3">
-                  <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
-                  <div><span class="fa fa-calendar me-1"></span> 2025</div>
-                </div>
-                <h4 class="mb-3">Investigación de pregrado</h4>
-                <p class="mb-0">Simulación CFD de erosión en tuberías bajo flujo turbulento y comparación con resultados experimentales.</p>
-              </div>
-            </div>
+<div class="col-12">
+  <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="d-flex align-items-center mb-3">
+      <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
+      <div><span class="fa fa-calendar me-1"></span> 2025</div>
+    </div>
+    <h4 class="mb-3">
+      <span class="lang-es">Investigación de pregrado</span>
+      <span class="lang-en" style="display: none;">Undergraduate Research</span>
+    </h4>
+    <p class="mb-0">
+      <span class="lang-es">
+        Simulación CFD de erosión en tuberías bajo flujo turbulento y comparación con resultados experimentales.
+      </span>
+      <span class="lang-en" style="display: none;">
+        CFD simulation of erosion in pipelines under turbulent flow and comparison with experimental results.
+      </span>
+    </p>
+  </div>
+</div>
+
 
             <!-- Item 3 -->
-            <div class="col-12">
-              <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="d-flex align-items-center mb-3">
-                  <p class="fs-5 mb-0 me-4">Ecobike</p>
-                  <div><span class="fa fa-calendar me-1"></span> 2022-2025</div>
-                </div>
-                <h4 class="mb-3">Instructor de ciclismo</h4>
-                <p class="mb-0">Profesor de ciclismo de montaña para niños y adultos junto a la escuela EcoBike.</p>
-              </div>
-            </div>
+<div class="col-12">
+  <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+    <div class="d-flex align-items-center mb-3">
+      <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
+      <div><span class="fa fa-calendar me-1"></span> 2022-2025</div>
+    </div>
+    <h4 class="mb-3">
+      <span class="lang-es">Instructor de ciclismo</span>
+      <span class="lang-en" style="display: none;">Mountain Biking Instructor</span>
+    </h4>
+    <p class="mb-0">
+      <span class="lang-es">
+        Profesor de ciclismo de montaña para niños y adultos junto a la escuela EcoBike.
+      </span>
+      <span class="lang-en" style="display: none;">
+        Mountain biking instructor for children and adults with the EcoBike school.
+      </span>
+    </p>
+  </div>
+</div>
+
 
             <!-- Item 4 -->
-            <div class="col-12">
-              <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="d-flex align-items-center mb-3">
-                  <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
-                  <div><span class="fa fa-calendar me-1"></span> 2025</div>
-                </div>
-                <h4 class="mb-3">Ayudante de CM2503 Procesos de Manufactura</h4>
-              </div>
-            </div>
+<div class="col-12">
+  <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.4s">
+    <div class="d-flex align-items-center mb-3">
+      <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
+      <div><span class="fa fa-calendar me-1"></span> 2025</div>
+    </div>
+    <h4 class="mb-3">
+      <span class="lang-es">Ayudante de CM2503 Procesos de Manufactura</span>
+      <span class="lang-en" style="display: none;">Teaching Assistant for CM2503 Manufacturing Processes</span>
+    </h4>
+  </div>
+</div>
 
             <!-- Item 5 -->
-            <div class="col-12">
-              <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="d-flex align-items-center mb-3">
-                  <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
-                  <div><span class="fa fa-calendar me-1"></span> 2022</div>
-                </div>
-                <h4 class="mb-3">Investigación de pregrado</h4>
-                <p class="mb-0">Investigación de pregrado acerca del uso de strain gauges para la fabricación económica de un sensor de potencia para ciclismo.</p>
-              </div>
-            </div>
+<div class="col-12">
+  <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.4s">
+    <div class="d-flex align-items-center mb-3">
+      <p class="fs-5 mb-0 me-4">Pontificia Universidad Católica de Chile</p>
+      <div><span class="fa fa-calendar me-1"></span> 2024</div>
+    </div>
+    <h4 class="mb-3">
+      <span class="lang-es">Ayudante de CM2803 Dinámica de Sistemas Mecánicos</span>
+      <span class="lang-en" style="display: none;">Teaching Assistant for CM2803 Dynamics of Mechanical Systems</span>
+    </h4>
+  </div>
+</div>
+
+            <!-- Item 6 -->
+<div class="col-12">
+  <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.5s">
+    <div class="d-flex align-items-center mb-3">
+      <p class="fs-5 mb-0 me-4">
+        <span class="lang-es">Pontificia Universidad Católica de Chile</span>
+        <span class="lang-en" style="display: none;">Pontifical Catholic University of Chile</span>
+      </p>
+      <div><span class="fa fa-calendar me-1"></span> 2022</div>
+    </div>
+    <h4 class="mb-3">
+      <span class="lang-es">Investigación de pregrado</span>
+      <span class="lang-en" style="display: none;">Undergraduate Research</span>
+    </h4>
+    <p class="mb-0">
+      <span class="lang-es">Investigación de pregrado acerca del uso de strain gauges para la fabricación económica de un sensor de potencia para ciclismo.</span>
+      <span class="lang-en" style="display: none;">Undergraduate research on the use of strain gauges for the cost-effective fabrication of a cycling power meter.</span>
+    </p>
+  </div>
+</div>
+
 
           </div>
         </div>
@@ -201,7 +300,11 @@
         <div class="portfolio-content h-100 pt-6 pb-6">
 
           <!-- Título principal -->
-          <h2 class="text-uppercase fw-bold mb-5" style="font-size: 32px; color: #000;">Portafolio</h2>
+          <h2 class="text-uppercase fw-bold mb-5" style="font-size: 32px; color: #000;">
+            <span class="lang-es">Portafolio</span>
+            <span class="lang-en" style="display: none;">Portfolio</span>
+          </h2>
+
 
          <!-- Proyecto: Dron FPV -->
 <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
@@ -209,11 +312,20 @@
 
     <!-- Texto a la izquierda -->
     <div class="col-12 col-xl-6">
-      <h4 class="fw-bold mb-3">Dron FPV</h4>
-      <p>
-        Diseño, construcción y puesta en marcha de un dron de carreras FPV capaz de alcanzar velocidades de hasta 169 km/h. Participación en todo el proceso: soldadura, configuración electrónica, impresión de partes, simulaciones aerodinámicas y pruebas de vuelo.
-      </p>
-    </div>
+  <h4 class="fw-bold mb-3">
+    <span class="lang-es">Dron FPV</span>
+    <span class="lang-en" style="display: none;">FPV Drone</span>
+  </h4>
+  <p>
+    <span class="lang-es">
+      Diseño, construcción y puesta en marcha de un dron de carreras FPV capaz de alcanzar velocidades de hasta 169 km/h. Participación en todo el proceso: soldadura, configuración electrónica, impresión de partes, simulaciones aerodinámicas y pruebas de vuelo.
+    </span>
+    <span class="lang-en" style="display: none;">
+      Design, construction, and commissioning of a racing FPV drone capable of reaching speeds of up to 169 km/h. Participated in the entire process: soldering, electronic configuration, part printing, aerodynamic simulations, and flight testing.
+    </span>
+  </p>
+</div>
+
 
     <!-- Carrusel + botón a la derecha -->
     <div class="col-12 col-xl-6">
@@ -252,11 +364,20 @@
 
     <!-- Texto a la izquierda -->
     <div class="col-12 col-xl-6">
-      <h4 class="fw-bold mb-3">Máquina limadora</h4>
-      <p>
-        Diseño y fabricación de una máquina limadora como proyecto de licenciatura. Incluye modelado CAD en Inventor, análisis de esfuerzos, cálculos de transmisión, selección de materiales, estimación de costos y fabricación. El proyecto culmina con un informe técnico completo y planos de fabricación listos para producción.
-      </p>
-    </div>
+  <h4 class="fw-bold mb-3">
+    <span class="lang-es">Máquina limadora</span>
+    <span class="lang-en" style="display: none;">Shaping Machine</span>
+  </h4>
+  <p>
+    <span class="lang-es">
+      Diseño y fabricación de una máquina limadora como proyecto de licenciatura. Incluye modelado CAD en Inventor, análisis de esfuerzos, cálculos de transmisión, selección de materiales, estimación de costos y fabricación. El proyecto culmina con un informe técnico completo y planos de fabricación listos para producción.
+    </span>
+    <span class="lang-en" style="display: none;">
+      Design and fabrication of a shaping machine as a capstone project. Includes CAD modeling in Inventor, stress analysis, transmission calculations, material selection, cost estimation, and manufacturing. The project culminates in a complete technical report and production-ready manufacturing drawings.
+    </span>
+  </p>
+</div>
+
 
     <!-- Carrusel + botón a la derecha -->
     <div class="col-12 col-xl-6">
@@ -285,9 +406,12 @@
       </div>
 
       <!-- Botón de descarga -->
-      <a href="docs/informe_limadora.pdf" class="btn btn-outline-primary btn-sm" download>
-        Descargar informe del proyecto
-      </a>
+      <span class="lang-es">
+        <a href="docs/informe_limadora.pdf" class="btn btn-outline-primary btn-sm" download>
+          Ver informe del proyecto
+        </a>
+      </span>
+
     </div>
   </div>
 </div>
@@ -299,11 +423,22 @@
 
     <!-- Texto a la izquierda -->
     <div class="col-12 col-xl-6">
-      <h4 class="fw-bold mb-3">Análisis forense tronca cadenas</h4>
-      <p>
-        Investigación forense sobre la fractura frágil de una herramienta de corte utilizada para separar eslabones de cadenas Shimano. Se realizó simulación FEA, cálculo de interferencia en el pasador y validación con fuerza real aplicada.
-      </p>
-    </div>
+  <h4 class="fw-bold mb-3">
+    <span class="lang-es">Análisis forense tronca cadenas</span>
+    <span class="lang-en" style="display: none;">Forensic analysis of chain breaker</span>
+  </h4>
+  <p>
+    <span class="lang-es">
+      Investigación forense sobre la fractura frágil de una herramienta de corte utilizada para separar eslabones de cadenas Shimano. 
+      Se realizó simulación FEA, cálculo de interferencia en el pasador y validación con fuerza real aplicada.
+    </span>
+    <span class="lang-en" style="display: none;">
+      Forensic investigation of the brittle fracture of a chain breaker tool used to separate Shimano chain links.
+      Included FEA simulation, pin interference analysis, and validation with applied force measurements.
+    </span>
+  </p>
+</div>
+
 
     <!-- Carrusel + botón a la derecha -->
     <div class="col-12 col-xl-6">
@@ -336,8 +471,10 @@
 
       <!-- Botón de descarga -->
       <a href="docs/informe_tronca.pdf" class="btn btn-outline-primary btn-sm" download>
-        Descargar informe del proyecto
+        <span class="lang-es">Ver informe del proyecto</span>
+        <span class="lang-en" style="display: none;">View project report</span>
       </a>
+
     </div>
   </div>
 </div>
@@ -349,11 +486,20 @@
 
     <!-- Texto a la izquierda -->
     <div class="col-12 col-xl-6">
-      <h4 class="fw-bold mb-3">Monitoreo condición rodamientos</h4>
-      <p>
-        Aplicación de machine learning para detección de fallas en rodamientos mediante el uso de señales de vibración. Se utilizaron modelos LSTM y ROCKET con procesamiento previo de ruido, extracción de características y validación cruzada.
-      </p>
-    </div>
+  <h4 class="fw-bold mb-3">
+    <span class="lang-es">Monitoreo condición rodamientos</span>
+    <span class="lang-en" style="display: none;">Bearing Condition Monitoring</span>
+  </h4>
+  <p>
+    <span class="lang-es">
+      Aplicación de machine learning para detección de fallas en rodamientos mediante el uso de señales de vibración. Se utilizaron modelos LSTM y ROCKET con procesamiento previo de ruido, extracción de características y validación cruzada.
+    </span>
+    <span class="lang-en" style="display: none;">
+      Machine learning applied to bearing fault detection using vibration signals. LSTM and ROCKET models were used with noise preprocessing, feature extraction, and cross-validation.
+    </span>
+  </p>
+</div>
+
 
     <!-- Carrusel + botón a la derecha -->
     <div class="col-12 col-xl-6">
@@ -382,9 +528,12 @@
       </div>
 
       <!-- Botón de descarga -->
-      <a href="docs/informe_rodamientos.pdf" class="btn btn-outline-primary btn-sm" download>
-        Descargar informe del proyecto
-      </a>
+      <span class="lang-es">
+        <a href="docs/informe_rodamientos.pdf" class="btn btn-outline-primary btn-sm" download>
+          Ver informe del proyecto
+        </a>
+      </span>
+
     </div>
   </div>
 </div>
@@ -404,7 +553,11 @@
     <div class="row g-0">
       <div class="col-12">
         <div class="experience-content h-100 pt-6 pb-6">
-          <h2 class="section-title">Certificaciones</h2>
+          
+          <!-- Título -->
+          <h2 class="section-title lang-es">Certificaciones</h2>
+          <h2 class="section-title lang-en">Certifications</h2>
+
           <div class="row g-4">
 
             <div class="col-12">
@@ -412,8 +565,10 @@
                 <div class="d-flex align-items-center mb-3">
                   <div><span class="fa fa-calendar me-1"></span> 2020</div>
                 </div>
-                <h4 class="mb-3">Inglés B</h4>
-                <p class="mb-0">Bachillerato Internacional.</p>
+                <h4 class="mb-3 lang-es">Inglés B</h4>
+                <h4 class="mb-3 lang-en">English B</h4>
+                <p class="mb-0 lang-es">Bachillerato Internacional.</p>
+                <p class="mb-0 lang-en">International Baccalaureate.</p>
               </div>
             </div>
 
@@ -423,8 +578,10 @@
                 <div class="d-flex align-items-center mb-3">
                   <div><span class="fa fa-calendar me-1"></span> 2018</div>
                 </div>
-                <h4 class="mb-3">Inglés nivel B2</h4>
-                <p class="mb-0">First Certificate in English, Cambridge Assessment.</p>
+                <h4 class="mb-3 lang-es">Inglés nivel B2</h4>
+                <h4 class="mb-3 lang-en">English level B2</h4>
+                <p class="mb-0 lang-es">First Certificate in English, Cambridge Assessment.</p>
+                <p class="mb-0 lang-en">First Certificate in English, Cambridge Assessment.</p>
               </div>
             </div>
 
@@ -437,13 +594,20 @@
 <!-- Certificaciones End -->
 
 
+
+
+
 <!-- Premios Start -->
 <div class="container-fluid">
   <div class="container">
     <div class="row g-0">
       <div class="col-12">
         <div class="experience-content h-100 pt-6 pb-6">
-          <h2 class="section-title">Premios</h2>
+
+          <!-- Título -->
+          <h2 class="section-title lang-es">Premios</h2>
+          <h2 class="section-title lang-en">Awards</h2>
+
           <div class="row g-4">
 
             <div class="col-12">
@@ -451,7 +615,8 @@
                 <div class="d-flex align-items-center mb-3">
                   <div><span class="fa fa-calendar me-1"></span> 2020</div>
                 </div>
-                <h4 class="mb-3">Medalla bronce Olimpiada Chilena de Física</h4>
+                <h4 class="mb-3 lang-es">Medalla bronce Olimpiada Chilena de Física</h4>
+                <h4 class="mb-3 lang-en">Bronze Medal, Chilean Physics Olympiad</h4>
               </div>
             </div>
 
@@ -461,7 +626,8 @@
                 <div class="d-flex align-items-center mb-3">
                   <div><span class="fa fa-calendar me-1"></span> 2016</div>
                 </div>
-                <h4 class="mb-3">Campeón nacional ciclismo cross-country categoría juvenil</h4>
+                <h4 class="mb-3 lang-es">Campeón nacional ciclismo cross-country categoría juvenil</h4>
+                <h4 class="mb-3 lang-en">National Youth Champion in Cross-Country Cycling</h4>
               </div>
             </div>
 
@@ -472,6 +638,7 @@
   </div>
 </div>
 <!-- Premios End -->
+
 
 <!-- Footer Start -->
 
@@ -489,5 +656,30 @@
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
+
+
+<script>
+function toggleLanguage() {
+  const isEnglish = document.getElementById("toggle-lang").checked;
+  const label = document.getElementById("toggle-label");
+
+  // Cambiar texto del toggle
+  label.textContent = isEnglish ? "English" : "Español";
+
+  // Mostrar/esconder contenido según idioma
+  document.querySelectorAll(".lang-es").forEach(el => {
+    el.style.display = isEnglish ? "none" : "inline";
+  });
+  document.querySelectorAll(".lang-en").forEach(el => {
+    el.style.display = isEnglish ? "inline" : "none";
+  });
+
+  // Cambiar el archivo del CV
+  const cvLink = document.getElementById("cv-download");
+  cvLink.setAttribute("href", isEnglish ? "docs/cv-martin-salinas-en.pdf" : "docs/cv-martin-salinas-es.pdf");
+}
+</script>
+
+
 </body>
 </html>
